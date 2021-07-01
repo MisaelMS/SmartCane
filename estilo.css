@@ -1,0 +1,37 @@
+.h3titulo{
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+.h3smart{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-line: overline;
+}
+body{
+    text-align: justify;
+    background-image: url(/img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+footer{
+    background-color: white;
+    max-width: 900px;
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+
+}
+.site{
+    background-color: rgb(255, 255, 255);
+}
+
+.escrita{
+    background-color: white;
+}
+
+.margin{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}

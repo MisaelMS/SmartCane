@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>SmartCane</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark" style="padding: 20px;">
+        <img src="img/cego.png" alt="Portador de cegueira com bengala" width="100px" height="100px">
+        <footer class="bg-dark h3smart"><h3 style="color: white;">Smart Cane</h3></footer>
+        <img src="img/cego.png" alt="Portador de cegueira com bengala" width="100px" height="100px">
+    </nav>
+    <footer>
+
+        <!-- Introducao -->
+        <h3 class="h3titulo">Projeto de TCC, bengala inteligente Smart Cane</h3>
+        <p>A evolução tecnológica, torna possível auxiliar pessoas das mais diferentes situações de vida, como trabalho, estudo, lazer e também traz aos portadores de deficiências, auxílio e independência e a inclusão social. Este trabalho traz uma proposta que une a tecnologia assistiva em ortose chamado “bengala inteligente”, na qual agrega ao deficiente visual mais autonomia no seu direito de ir e vir.</p>
+        <p>A metodologia é do tipo pesquisa bibliográfica cuja divisão abordará as tecnologias assistivas e a descrição do passo a passo do projeto.</p>
+        <p>A bengala inteligente, atende um programa simples de personalizar a rotina do usuário, de forma que traz segurança para ele em várias esferas sociais que ela atua, no lar, no trabalho, na universidade e etc., através de um sensor ultrassônico.</p>
+
+        <!-- Botoes -->
+        <div class="container" style="margin: 20px;">
+            <a href="#PortadorDef">
+                <button class="btn btn-outline-success my-2 my-sm-2" onclick="PortadorCegueira()" style="margin-left: 20px;">Portador de deficiente visual</button>
+            </a>
+            <a href="#Ferramentas">
+            <button class="btn btn-outline-success my-2 my-sm-2" onclick="Ferramentas()" style="margin-left: 20px;">Projeto 3D e componentes</button>
+        </a>
+        <a href="#Programa">
+            <button class="btn btn-outline-success my-2 my-sm-2" onclick="Porgrama()" style="margin-left: 20px;">Programação da bengala</button>
+        </a>
+        </div>   
+    </footer>
+
+    <!-- Conteudo -->
+        <div class="container margin escrita" style="background-color: white;">
+            <div class="container card">
+                <div class="row">
+                    <div class="col-md-6">
+                        <section id="PortadorDef">
+                        <h3>Portador de deficiência visual</h3>
+                        <p>A visão é muito importante para o relacionamento do ser humano com o mundo, pois ela registra informações no cérebro, organizando diversas funções, como calcular um trajeto, saber onde passará e para onde irá, que rua virar e etc.</p>
+                        <p>A visão tem diversos estados, sendo a visão perfeita até a cegueira total, quando alguém é portador de deficiência visual, essa pessoa tem um espectro que vai da visão subnormal até a cegueira. (PORTAL MEC, 03/05/2021)</p>
+                        <p>Define-se como portadora de deficiência visual, uma pessoa que não consegue usar a vista como principal meio de aprendizado, ou seja, quando se possui dificuldade de aprendizagem por possuir algum defeito visual. (PORTAL WEB, 05/05/2021) </p>
+                        </section>
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Cegueira absoluta</h3>
+                        <p>A cegueira tem um efeito muito grave na limitação na orientação e mobilidade do portador. Onde o desenvolvimento do portador deve ser desde cedo, estimulando e orientando o cego no âmbito social. Existem programas, feitos pelas escolas, onde os sentidos de orientação são melhorados, o tato, audição e olfato, por meio de interações com objetos que estão em vários ambientes.</p>
+                        <p>A família é de extrema importância no desenvolvimento do cego, pois a família está no cotidiano, e ela terá o papel de mostrar que mesmo tendo a cegueira, o portador é uma pessoa e não se deve focar em sua cegueira ou baixa capacidade visual. (PORTAL MEC, 2021)</p>
+                        <p>A inclusão social do cego, é uma grande conquista, hoje em dia os indivíduos com cegueira, compartilham tranquilamente os espaços sociais com pessoas sem deficiência, tendo os mesmos direitos e deveres. Essa inclusão abriu portas para a aceitação dos cegos, além de trazer a igualdade.</p>
+                    </div>
+                <div class="col-md-6">
+                    <h3>Acessibilidade</h3>
+                    <p>Acessibilidade traz melhor qualidade de vida, em qualquer ambiente, para as pessoas portadoras de deficiência. A acessibilidade contribui para o desenvolvimento do portador de deficiência e influência nos resultados sociais, e sua prática é fundamental para auxiliar pessoas com necessidades especiais. (FMC ARQUITETURA, 2021)</p>
+                    <p>No Brasil foi oficializado a Lei de Acessibilidade, pelo decreto n°5296, publicado em dezembro de 2004, esse decreto regulamenta duas leis, uma que traz prioridade ao atendimento às pessoas portadoras de deficiência, Lei n° 10.048/2000, e uma lei que estabelece normas e critérios que promovem a acessibilidade, Lei n° 10.098/2000.</p>
+                    <p>A lei determina que os princípios do desenho universal devem ser atendidos quando se trata de projetos arquitetônicos sendo implementados. Ou seja, o projeto deve permitir que todos possam usufruí-los, ou seja, que o espaço ou objeto não necessite de uso de assistência, habilidades ou características físicas e mentais.</p>
+                </div>
+            <div class="col-md-6">
+                <img src="img/acessibilidade.png" width="100%">
+            </div>
+        </div>
+
+            <div class="row">
+            <div class="col-md-6" style="display: flexbox; align-items: center;">
+                <section id="Ferramentas">
+                <h3>Arduino</h3>
+                <p>Arduino é uma plataforma aberta de desenvolvimento, que auxilia na criação de ferramentas flexíveis e fáceis de usar, foi criada para que qualquer pessoa interessada em criar mecanismos interativos, sejam em objetos ou em ambientes, pudesse usar.</p>
+                <img src="img/arduino.png" width="140" height="100" style="padding: 10px;">
+                <p>A placa do Arduino é o microcontrolador, que no qual irá controlar os equipamentos, segundo a programação feita em sua IDE chamada Arduino IDE, que é o software que permite ao desenvolvedor, desenvolver o código que será usado na placa. (USP, 2021)</p>
+            </div>
+        </section>
+
+            <div class="col-md-6" style="display: flexbox; align-items: center;">
+                <h3>Smart Cane</h3>
+                <p>A bengala inteligente Smart Cane foi pensada diretamente no dia a dia dos portadores de deficiência visual, ela tem como principal função apontar os obstáculos encontrados no caminho do portador.</p>
+                <img src="img/smartcane.png" width="200" height="150" style="padding: 10px;">
+                <p>A Smart Cane foi programada em C ++, utilizando a plataforma Arduino IDE, além disso, a Smart Cane foi produzida com o microprocessador Arduino Uno, integrado com dois sensores ultrassônicos, um vibracall, dois alto falantes, uma protoboard, um mp3 player, um cartão SD e jumpers, além disso a Smart Cane é feita com canos PVC, um material mais acessível.</p>
+            </div>
+        </div>
+    </div>
+
+        <!-- Programacao da bengala -->
+        <div class="container card" id="Programa">
+            <a href="programacao.ino" style="text-align: center;">
+                <button class="btn btn-outline-success my-2 my-sm-2" onclick="Porgrama()" style="margin-left: 20px;">Exibir programação.</button>
+            </a>
+        </div>
+    </div>
+    <footer style="text-align: center;">Desenvolvido por Misael</footer>
+</body>
+</html>
